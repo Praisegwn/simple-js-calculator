@@ -9,37 +9,39 @@
 	</head>
 	<body>
 		<div class="calculator-wrap">
+			<!--input field starts here-->
+			<div ><input type="text" class="input" size="40px" value="" ></div>
+			<!--ends here-->
 			<div class="calculator-result-screen" id="display"></div>
-			<div class="calculator-inner-wrap">
-				<div class="row row-2">
-					<button class="btn clear">&#67;</button>
-					<button class="btn">&larr;</button>
-					<button class="btn btn-last-col divide">&divide;</button>
-				</div>
-				<div class="row">
-					<button class="btn">&#55;</button>
-					<button class="btn">&#56;</button>
-					<button class="btn">&#57;</button>
-					<button class="btn btn-last-col">&times;</button>
-				</div>
-				<div class="row">
-					<button class="btn">&#52;</button>
-					<button class="btn">&#53;</button>
-					<button class="btn">&#54;</button>
-					<button class="btn btn-last-col">&minus;</button>
-				</div>
-				<div class="row">
-					<button class="btn">&#49;</button>
-					<button class="btn">&#50;</button>
-					<button class="btn">&#51;</button>
-					<button class="btn btn-last-col">&plus;</button>
-				</div>
-				<div class="row">
-					<button class="btn digit-zero">&#48;</button>
-					<button class="btn btn-last-col">&equals;</button>
-				</div>
+			<div class="row">
+				<button class="btn reload">&#67;</button>
+				<button class="btn clear">&larr;</button>
+				<button class="btn btn-last-col divide" value="/">&divide;</button>
+			</div>
+			<div class="row">
+				<button class="btn seven" value="7">&#55;</button>
+				<button class="btn eight" value="8">&#56;</button>
+				<button class="btn nine" value="9">&#57;</button>
+				<button class="btn btn-last-col times" value="*">&times;</button>
+			</div>
+			<div class="row">
+				<button class="btn four" value="4">&#52;</button>
+				<button class="btn five" value="5">&#53;</button>
+				<button class="btn six" value="6">&#54;</button>
+				<button class="btn btn-last-col minus" value="-">&minus;</button>
+			</div>
+			<div class="row">
+				<button class="btn one" value="1">&#49;</button>
+				<button class="btn two" value="2">&#50;</button>
+				<button class="btn three" value="3">&#51;</button>
+				<button class="btn btn-last-col plus" value="+">&plus;</button>
+			</div>
+			<div class="row">
+				<button class="btn digit-zero" value="0">&#48;</button>
+				<button class="btn btn-last-col equals">&equals;</button>
 			</div>
 		</div>
-		<script src="./js/function.js"></script>
+
+		<script src="/js/func.js"></script>
 	</body>
 </html>
